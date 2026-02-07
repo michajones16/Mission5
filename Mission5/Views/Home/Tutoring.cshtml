@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Tutoring Calculator";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>If you would like to be as knowledgeable as me about college football, you can learn from me for a price! Enter how many hours below you would like to spend to see how much you will pay.</p>
+
+<div>
+    <p>Hourly Rate:</p>
+    <input id="hourlyRate" type="text" style="color:darkgreen;" value="$50,000.00" readonly />
+    <p id="result" style="color:darkgreen;">Gotta fund the NIL budget somehow ¯\_(ツ)_/¯</p>
+</div>
+
+<div>
+    <p>Desired Hours: </p>
+    <input id="userHours" type="number" />
+</div>
+
+<br />
+<button onclick="calculatePrice()">Submit</button>
+
+<p>Your total will be: <span id="total"></span></p>
+
+<p id="error" style="color:red;" hidden>Enter a value greater than 0</p>
+
+<script src="~/js/calculator.js"></script>
