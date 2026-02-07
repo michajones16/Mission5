@@ -2,11 +2,6 @@
     ViewData["Title"] = "Home Page";
 }
 
-<nav class="navbar navbar-dark bg-dark mb-4">
-    <div class="container">
-        <span class="navbar-brand mb-0 h1">NCAA Football Hub</span>
-    </div>
-</nav>
 
 <div class="container">
 
@@ -27,71 +22,94 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img src="https://placehold.co/600x400?text=Game+Day+Atmosphere" class="img-fluid rounded shadow" alt="Crowd at a game">
+            <img src="~/img/cfp.jpg" class="img-fluid rounded shadow" alt="A football field">
         </div>
     </div>
 
-    <hr class="my-5">
-
     <div class="row mb-5">
         <div class="col-md-6">
-            <h3>All-Time Winningest Programs</h3>
-            <p>The blue bloods of the sport who have set the standard for victory over the last century.</p>
+            <h3>Top 5 Winningest Programs of All Time</h3>
             <ul class="list-group">
                 <li class="list-group-item d-flex align-items-center">
-                    <div class="logo-placeholder">Logo</div>
+                    <div class="logo-placeholder">
+                        <img src="~/img/michigan.png" />
+                    </div>
                     <span class="fw-bold flex-grow-1">Michigan Wolverines</span>
-                    <span class="badge bg-primary rounded-pill">1004+ Wins</span>
+                    <span class="badge bg-michigan rounded-pill">1012</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
-                    <div class="logo-placeholder">Logo</div>
+                    <div class="logo-placeholder">
+                        <img src="~/img/ohio state.png" />
+                    </div>
                     <span class="fw-bold flex-grow-1">Ohio State Buckeyes</span>
-                    <span class="badge bg-danger rounded-pill">965+ Wins</span>
+                    <span class="badge bg-ohiost rounded-pill">978</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
-                    <div class="logo-placeholder">Logo</div>
+                    <div class="logo-placeholder">
+                        <img src="~/img/alabama.png" />
+                    </div>
                     <span class="fw-bold flex-grow-1">Alabama Crimson Tide</span>
-                    <span class="badge bg-danger rounded-pill">965+ Wins</span>
+                    <span class="badge bg-alabama rounded-pill">974</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
-                    <div class="logo-placeholder">Logo</div>
+                    <div class="logo-placeholder">
+                        <img src="~/img/notre dame.png" />
+                    </div>
                     <span class="fw-bold flex-grow-1">Notre Dame Fighting Irish</span>
-                    <span class="badge bg-success rounded-pill">948+ Wins</span>
+                    <span class="badge bg-notredame rounded-pill">962</span>
                 </li>
                 <li class="list-group-item d-flex align-items-center">
-                    <div class="logo-placeholder">Logo</div>
+                    <div class="logo-placeholder">
+                        <img src="~/img/texas.png" />
+                    </div>
                     <span class="fw-bold flex-grow-1">Texas Longhorns</span>
-                    <span class="badge bg-warning text-dark rounded-pill">948+ Wins</span>
+                    <span class="badge bg-texas text-dark rounded-pill">961</span>
                 </li>
             </ul>
         </div>
 
         <div class="col-md-6">
-            <h3>Last 10 National Champions</h3>
-            <table class="table table-striped table-hover">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Season</th>
-                        <th>Champion</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>2025</td><td>Indiana Hoosiers</td></tr>
-                    <tr><td>2024</td><td>Ohio State Buckeyes</td></tr>
-                    <tr><td>2023</td><td>Michigan Wolverines</td></tr>
-                    <tr><td>2022</td><td>Georgia Bulldogs</td></tr>
-                    <tr><td>2021</td><td>Georgia Bulldogs</td></tr>
-                    <tr><td>2020</td><td>Alabama Crimson Tide</td></tr>
-                    <tr><td>2019</td><td>LSU Tigers</td></tr>
-                    <tr><td>2018</td><td>Clemson Tigers</td></tr>
-                    <tr><td>2017</td><td>Alabama Crimson Tide</td></tr>
-                    <tr><td>2016</td><td>Clemson Tigers</td></tr>
-                </tbody>
-            </table>
+            <h3>Last 5 National Champions</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex align-items-center">
+                    <div class="logo-placeholder">
+                        <img src="~/img/indiana.png" />
+                    </div>
+                    <span class="fw-bold flex-grow-1">Indiana Hoosiers</span>
+                    <span class="badge bg-indiana rounded-pill">2025</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                    <div class="logo-placeholder">
+                        <img src="~/img/ohio state.png" />
+                    </div>
+                    <span class="fw-bold flex-grow-1">Ohio State Buckeyes</span>
+                    <span class="badge bg-ohiost rounded-pill">2024</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                    <div class="logo-placeholder">
+                        <img src="~/img/michigan.png" />
+                    </div>
+                    <span class="fw-bold flex-grow-1">Michigan Wolverines</span>
+                    <span class="badge bg-michigan rounded-pill">2023</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                    <div class="logo-placeholder">
+                        <img src="~/img/georgia.png" />
+                    </div>
+                    <span class="fw-bold flex-grow-1">Georgia Bulldogs</span>
+                    <span class="badge bg-georgia rounded-pill">2022</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                    <div class="logo-placeholder">
+                        <img src="~/img/georgia.png" />
+                    </div>
+                    <span class="fw-bold flex-grow-1">Georgia Bulldogs</span>
+                    <span class="badge bg-georgia text-dark rounded-pill">2021</span>
+                </li>
+            </ul>
         </div>
-    </div>
 
-    <hr class="my-5">
+    </div>
 
     <div class="row mb-5">
         <div class="col-12 mb-4">
@@ -101,14 +119,16 @@
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-img-top venue-img-placeholder">
-                    Venue Photo (Michigan Stadium)
+                    <img src="~/img/big_house.jpg" />
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
-                        <div class="logo-placeholder" style="width: 30px; height: 30px; font-size: 8px;">Logo</div>
+                        <div class="logo-placeholder">
+                            <img src="~/img/michigan.png" />
+                        </div>
                         <h5 class="card-title mb-0">Michigan Stadium</h5>
                     </div>
-                    <p class="card-text"><strong>Capacity:</strong> 107,601</p>
+                    <p class="card-text badge bg-michigan rounded-pill"><strong>Capacity:</strong> 107,601</p>
                     <p class="card-text text-muted">"The Big House" - Ann Arbor, MI</p>
                 </div>
             </div>
@@ -117,14 +137,16 @@
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-img-top venue-img-placeholder">
-                    Venue Photo (Beaver Stadium)
+                    <img src="~/img/beaver_stadium.jpg" />
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
-                        <div class="logo-placeholder" style="width: 30px; height: 30px; font-size: 8px;">Logo</div>
+                        <div class="logo-placeholder">
+                            <img src="~/img/penn state.png" />
+                        </div>
                         <h5 class="card-title mb-0">Beaver Stadium</h5>
                     </div>
-                    <p class="card-text"><strong>Capacity:</strong> 106,572</p>
+                    <p class="card-text badge bg-pennstate rounded-pill"><strong>Capacity:</strong> 106,572</p>
                     <p class="card-text text-muted">Home of the White Out - University Park, PA</p>
                 </div>
             </div>
@@ -133,14 +155,16 @@
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-img-top venue-img-placeholder">
-                    Venue Photo (Ohio Stadium)
+                    <img src="~/img/ohio_stadium.jpg" />
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
-                        <div class="logo-placeholder" style="width: 30px; height: 30px; font-size: 8px;">Logo</div>
+                        <div class="logo-placeholder">
+                            <img src="~/img/ohio state.png" />
+                        </div>
                         <h5 class="card-title mb-0">Ohio Stadium</h5>
                     </div>
-                    <p class="card-text"><strong>Capacity:</strong> 102,780</p>
+                    <p class="card-text badge bg-ohiost rounded-pill"><strong>Capacity:</strong> 102,780</p>
                     <p class="card-text text-muted">"The Horseshoe" - Columbus, OH</p>
                 </div>
             </div>
@@ -151,22 +175,24 @@
 
     <div class="row">
         <div class="col-lg-6">
-            <h3>Top Plays of the Decade</h3>
-            <div class="video-placeholder">
-                <span>Kick Six (Auburn vs Bama)</span>
-            </div>
-            <div class="video-placeholder">
-                <span>2nd & 26 (Bama vs Georgia)</span>
-            </div>
+            <h3>Top Plays</h3>
+            <iframe width="535" height="315" src="https://www.youtube.com/embed/GeiXFtkGp2s?si=skQRhITwOndFcfon" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+            <iframe width="535" height="315" src="https://www.youtube.com/embed/SJjKOuuL9gk?si=EoDrjZ4Ln3oC6bxu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+            <iframe width="535" height="315" src="https://www.youtube.com/embed/31kt4GTIgNc?si=P45eymGcMfad0Sz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+            <p>And because I'm a BYU fan...</p>
+            <iframe width="535" height="315" src="https://www.youtube.com/embed/_3D5d_takL4?si=JdEN_zTpCmO9QZQ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="col-lg-6">
-            <h3>Top 10 Games of the 21st Century (<a href="https://www.si.com/college-football/the-top-25-college-football-games-of-the-past-25-years" >Sports Illustrated</a>)</h3>
+            <h3>Top 10 Games of the 21st Century</h3>
+            <p><a href="https://www.si.com/college-football/the-top-25-college-football-games-of-the-past-25-years">Sports Illustrated</a></p>
 
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/usc.png" />
+                        </div>
                         <div class="fw-bold">USC</div>
                     </div>
                     <div class="col-6">
@@ -174,7 +200,9 @@
                         <small class="text-muted">Jan 4, 2006 (Rose Bowl)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/texas.png" />
+                        </div>
                         <div class="fw-bold">Texas</div>
                     </div>
                 </div>
@@ -183,7 +211,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/alabama.png" />
+                        </div>
                         <div class="fw-bold">Alabama</div>
                     </div>
                     <div class="col-6">
@@ -191,7 +221,9 @@
                         <small class="text-muted">Nov 30, 2013</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/auburn.png" />
+                        </div>
                         <div class="fw-bold">Auburn</div>
                     </div>
                 </div>
@@ -200,7 +232,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/boise state.png" />
+                        </div>
                         <div class="fw-bold">Boise St</div>
                     </div>
                     <div class="col-6">
@@ -208,7 +242,9 @@
                         <small class="text-muted">Jan 1, 2007 (Fiesta Bowl)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/oklahoma.png" />
+                        </div>
                         <div class="fw-bold">Oklahoma</div>
                     </div>
                 </div>
@@ -217,7 +253,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/app state.png" />
+                        </div>
                         <div class="fw-bold">App. St</div>
                     </div>
                     <div class="col-6">
@@ -225,7 +263,9 @@
                         <small class="text-muted">Sep 1, 2007</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/michigan.png" />
+                        </div>
                         <div class="fw-bold">Michigan</div>
                     </div>
                 </div>
@@ -234,7 +274,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/alabama.png" />
+                        </div>
                         <div class="fw-bold">Alabama</div>
                     </div>
                     <div class="col-6">
@@ -242,7 +284,9 @@
                         <small class="text-muted">Jan 8, 2018 (Nat'l Champ)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/georgia.png" />
+                        </div>
                         <div class="fw-bold">Georgia</div>
                     </div>
                 </div>
@@ -251,7 +295,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/michigan.png" />
+                        </div>
                         <div class="fw-bold">Michigan</div>
                     </div>
                     <div class="col-6">
@@ -259,7 +305,9 @@
                         <small class="text-muted">Nov 18, 2006</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/ohio state.png" />
+                        </div>
                         <div class="fw-bold">Ohio St</div>
                     </div>
                 </div>
@@ -268,7 +316,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/usc.png" />
+                        </div>
                         <div class="fw-bold">USC</div>
                     </div>
                     <div class="col-6">
@@ -276,7 +326,9 @@
                         <small class="text-muted">Oct 15, 2005</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/notre dame.png" />
+                        </div>
                         <div class="fw-bold">Notre Dame</div>
                     </div>
                 </div>
@@ -285,7 +337,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/clemson.png" />
+                        </div>
                         <div class="fw-bold">Clemson</div>
                     </div>
                     <div class="col-6">
@@ -293,7 +347,9 @@
                         <small class="text-muted">Jan 9, 2017 (Nat'l Champ)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/alabama.png" />
+                        </div>
                         <div class="fw-bold">Alabama</div>
                     </div>
                 </div>
@@ -302,7 +358,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/georgia.png" />
+                        </div>
                         <div class="fw-bold">Georgia</div>
                     </div>
                     <div class="col-6">
@@ -310,7 +368,9 @@
                         <small class="text-muted">Jan 1, 2018 (Rose Bowl)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/oklahoma.png" />
+                        </div>
                         <div class="fw-bold">Oklahoma</div>
                     </div>
                 </div>
@@ -319,7 +379,9 @@
             <div class="game-score-card">
                 <div class="row align-items-center text-center">
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/ohio state.png" />
+                        </div>
                         <div class="fw-bold">Ohio St</div>
                     </div>
                     <div class="col-6">
@@ -327,7 +389,9 @@
                         <small class="text-muted">Dec 31, 2022 (Peach Bowl)</small>
                     </div>
                     <div class="col-3">
-                        <div class="logo-placeholder mx-auto">Logo</div>
+                        <div class="logo-placeholder mx-auto">
+                            <img src="~/img/georgia.png" />
+                        </div>
                         <div class="fw-bold">Georgia</div>
                     </div>
                 </div>

@@ -35,20 +35,30 @@ body {
 .logo-placeholder {
     width: 50px;
     height: 50px;
-    background-color: #e9ecef;
-    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 10px;
     color: #6c757d;
-    border: 1px solid #dee2e6;
     margin-right: 10px;
 }
 
-
+.logo-placeholder img {
+    max-width: 50px;
+    max-height: 50px;
+}
 
 .venue-img-placeholder {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+.venue-img-placeholder img {
     width: 100%;
     height: 200px;
     background-color: #ced4da;
@@ -58,8 +68,6 @@ body {
     color: #495057;
     margin-bottom: 10px;
 }
-
-
 
 .video-placeholder {
     width: 100%;
@@ -74,24 +82,72 @@ body {
 
 
 
-    .video-placeholder span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-weight: bold;
-        border: 2px solid white;
-        padding: 10px 20px;
-        border-radius: 5px;
-    }
+.video-placeholder span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
 
 
 .game-score-card {
-    border: 1px solid #dee2e6;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    background-color: #f8f9fa;
+border: 1px solid #dee2e6;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 15px;
+background-color: #f8f9fa;
+}
+
+.bg-michigan {
+    --bs-bg-opacity: 1;
+    background-color: #00274c !important;
+    color: #ffcb05 !important;
+}
+
+.bg-ohiost {
+    --bs-bg-opacity: 1;
+    background-color: #ba0c2f !important;
+    color: #a7b1b7 !important;
+}
+
+.bg-alabama {
+    --bs-bg-opacity: 1;
+    background-color: #9E1B32 !important;
+    color: #ffffff !important;
+}
+
+.bg-notredame {
+    --bs-bg-opacity: 1;
+    background-color: #0c2340 !important;
+    color: #ae9142 !important;
+}
+
+.bg-texas {
+    --bs-bg-opacity: 1;
+    background-color: #bf5700 !important;
+    color: #ffffff !important;
+}
+
+.bg-indiana {
+    --bs-bg-opacity: 1;
+    background-color: #990000 !important;
+    color: #EDEBEB !important;
+}
+
+.bg-georgia {
+    --bs-bg-opacity: 1;
+    background-color: #BA0C2F !important;
+    color: #ffffff !important;
+}
+
+.bg-pennstate {
+    --bs-bg-opacity: 1;
+    background-color: #1E407C !important;
+    color: #ffffff !important;
 }
